@@ -31,6 +31,7 @@ from warnings import warn as _warn
 import math
 import sys
 from Crypto.Util.py3compat import *
+xrange = range
 
 bignum = long
 try:
