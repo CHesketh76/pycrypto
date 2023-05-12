@@ -57,6 +57,7 @@ __revision__ = "$Id$"
 
 from Crypto.Cipher import blockalgo
 from Crypto.Cipher import _CAST
+xrange = range
 
 class CAST128Cipher(blockalgo.BlockAlgo):
     """CAST-128 cipher object"""
