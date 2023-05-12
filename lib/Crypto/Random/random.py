@@ -29,6 +29,8 @@ __all__ = ['StrongRandom', 'getrandbits', 'randrange', 'randint', 'choice', 'shu
 
 from Crypto import Random
 import sys
+xrange = range
+
 if sys.version_info[0] == 2 and sys.version_info[1] == 1:
     from Crypto.Util.py21compat import *
 
