@@ -39,6 +39,7 @@ from Crypto.Protocol.KDF import _S2V
 
 from Crypto.Util import _galois
 
+xrange = range
 #: *Electronic Code Book (ECB)*.
 #: This is the simplest encryption mode. Each of the plaintext blocks
 #: is directly encrypted into a ciphertext block, independently of
