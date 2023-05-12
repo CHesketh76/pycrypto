@@ -36,6 +36,7 @@ from Crypto.Util import Counter
 from Crypto.Cipher import AES
 
 import SHAd256
+xrange = range
 
 class AESGenerator(object):
     """The Fortuna "generator"
