@@ -33,7 +33,7 @@ Do not use it for real applications!
 __revision__ = "$Id$"
 
 from Crypto.Cipher import _XOR
-
+xrange = range
 class XORCipher:
     """XOR cipher object"""
 
