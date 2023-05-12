@@ -60,6 +60,7 @@ __revision__ = "$Id$"
 
 from Crypto.Cipher import blockalgo
 from Crypto.Cipher import _ARC2
+xrange = range
 
 class RC2Cipher (blockalgo.BlockAlgo):
     """RC2 cipher object"""
