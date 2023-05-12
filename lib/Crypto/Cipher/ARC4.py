@@ -66,6 +66,8 @@ __revision__ = "$Id$"
 from Crypto.Util.py3compat import *
 from Crypto.Cipher import _ARC4
 
+xrange = range
+
 class ARC4Cipher:
     """ARC4 cipher object"""
 
